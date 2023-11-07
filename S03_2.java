@@ -1,13 +1,13 @@
 import java.io.*;
 import java.util.*;
 
-class S03_2{
+class S03_2{ //Patient Class
 	String pname;
 	int age;
 	int oxlevel;
 	int HRCT;
 	
-	S03_2(String pname,int age,int oxlevel,int HRCT){
+	S03_2(String pname,int age,int oxlevel,int HRCT){ // Patient Constructor
 		this.pname=pname;
 		this.age=age;
 		this.oxlevel=oxlevel;
